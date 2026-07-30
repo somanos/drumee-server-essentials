@@ -11,6 +11,7 @@
     "test:email": "node lib/test/email.js",
     "test:template": "node lib/test/template.js",
     "test:db": "node lib/test/db.js",
+    "test:memwatch": "node lib/test/memory-watch.js",
     "test:modules": "node lib/test/cache.js",
     "release": "git push && npm publish --access public && npm version patch"
   },
